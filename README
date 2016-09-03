@@ -1,0 +1,16 @@
+FileRead
+Directiva de angularjs que permite leer ficheros creando una estructura de datos:
+
+Objeto:{
+	title: nombre del fichero leído
+	data: el contenido del fichero leído
+	mime: url corta del fichero leido
+
+}
+
+opcionalmente añadiento en el atributo parse-Xml a valor true cuando el archivo es xml
+este sera parseado a un objeto con estructura json
+
+Dependencias:
+
+ngXml2json
