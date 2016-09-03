@@ -4,6 +4,7 @@
  * object{
  *      title: name of file,
  *      data: the content
+ *		mime: 
  * }
  * optional atrrs: parse-Xml -- Values: {true, false} // default: true
  */
